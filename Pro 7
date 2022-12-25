@@ -1,0 +1,12 @@
+#7) program to print given no is perfect or not
+n=int(input ())
+i=1
+s=0
+while(i<=n):
+  if(n%i==0):
+    s=s+i
+    i=i+1
+  if s==n:
+     print('perfect no')
+  else:
+     print('not a perfect no')
